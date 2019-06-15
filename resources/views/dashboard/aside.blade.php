@@ -14,7 +14,7 @@
                         @endrole
                     </ul>
                 </li>
-                @role('operator')
+                @role('student')
                 <li><a><i class="fa fa-edit"></i> Абоненты <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                         <li><a href="form_advanced.html">Управления абонентов</a></li>

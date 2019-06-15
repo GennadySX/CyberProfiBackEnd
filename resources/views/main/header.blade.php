@@ -54,7 +54,7 @@
 
         <!-- Logo -->
         <div class="logo mr-auto">
-            <a href="#">Yota<span> in</span></a>
+            <a href="#">UNIver<span> in</span></a>
         </div>
 
         <!-- Navigation -->
@@ -62,10 +62,6 @@
             <ul>
                 <li class="active"><a href="#">Главный</a></li>
                 <li><a href="about.html">О нас</a></li>
-                <li><a href="services.html">Сервис</a></li>
-                <li><a href="portfolio.html">Тарифы</a></li>
-                <li><a href="blog.html">Блог</a></li>
-                <li><a href="contact.html">Контакты</a></li>
 
                 @guest
                     <li class="enter-btn"><a  href="{{ route('login') }}"  data-toggle="modal" data-target="#signIn">Вход</a></li>

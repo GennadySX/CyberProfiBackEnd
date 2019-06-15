@@ -18,7 +18,7 @@ class CreateUsersTable extends Migration
             $table->string('name')->nullable();
             $table->string('surname')->nullable();
             $table->string('middle_name')->nullable();
-            
+            $table->enum('class', [9,10,11])->default(11);
             $table->string('avatar')->default('avatar.png');
             $table->string('phone')->default('7 911 11 11 111');
             $table->date('birth_date')->default('2000-01-01');
@@ -26,7 +26,6 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->string('address')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

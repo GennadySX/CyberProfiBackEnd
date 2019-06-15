@@ -34,7 +34,7 @@
         <div class="col-md-3 left_col">
             <div class="left_col scroll-view">
                 <div class="navbar nav_title" style="border: 0;">
-                    <a href="/" class="site_title"><img src="{{asset('tim/images/logo.png')}}" alt="" style="width: 45px; height: 45px; border-radius: 25px;"> <span>Yota</span></a>
+                    <a href="/" class="site_title"><img src="{{asset('tim/images/logo.png')}}" alt="" style="width: 45px; height: 45px; border-radius: 25px;"> <span>UNIver</span></a>
                 </div>
 
                 <div class="clearfix"></div>

@@ -27,8 +27,7 @@
                 <div class="owl-item hero_slider_item item_1 d-flex flex-column align-items-center justify-content-center">
                     <span>Добро</span>
                     <span>Пожаловать!</span>
-                    <span>Yota!</span>
-                    <span>Сбываются твои мечты!</span>
+                    <span>Univer!</span>
                 </div>
 
                 <!-- Slider Item -->
