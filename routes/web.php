@@ -28,7 +28,7 @@ Route::get('/test', function() {
 });
 
 Auth::routes();
-//Route::get('log',)
+
 
 
 

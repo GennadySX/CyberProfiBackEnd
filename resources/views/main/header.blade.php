@@ -226,7 +226,7 @@
 
             <div class="limiter ">
                 <div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
-                    <form class=" validate-form flex-sb flex-w" method="POST" action="{{ route('register') }}">
+                    <form class="  flex-sb flex-w" method="POST" action="{{ route('register')}}">
                         @csrf
                         <span class="login100-form-title p-b-53">
 						Регистрация
